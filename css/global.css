@@ -1,0 +1,68 @@
+*{ margin:0; padding:0;}
+body{ width:980px; text-align:center; margin:0 auto; }
+a{ text-decoration:none;}
+ul{ list-style:none;}
+img{ border:none;}
+html{background:#f6f6f6 url(../images/html_bg.gif) center center repeat-y; width:100%;}
+body{background:url(../images/html_bg.gif) center repeat-y; padding:0 10px; border-left:1px solid #ccc;border-right:1px solid #ccc;}
+/*********头部样式*********/
+
+#header{ float:left; width:980px; background:#FFF; text-align:left;}
+
+#header .H_top{ height:20px; line-height:20px;}
+
+#header .logo{ float:left; margin-right:130px;}
+
+#header .search{ float:left; width:550px; height:38px; background:url(../images/searchbg.gif) no-repeat; padding:4px;}
+#header .search #keyword  { float:left;  width:429px; height:30px; padding:0 10px; line-height:30px; font-size:14px; color:#999; border:none; display:inline; }
+
+
+/*********顶部样式*********/
+#H_top{ height:24px; line-height:24px; margin-bottom:10px; border-bottom:1px solid #bbb;}
+#H_top .toplinks{ font-size:12px; text-align:right; }
+#H_top .toplinks a{ font-size:12px; color:#333; margin:0 5px;}
+
+
+/*********导航样式*********/
+
+#nav{ width:980px; margin-top:10px; }
+
+#nav a{ float:left; margin:0 1px 0 0; padding:0 10px; display:block; font-size:16px; font-weight:bold; color:#FFf; height:44px; line-height:44px; background:url(../images/nav_bg.gif) repeat-x;}
+
+#nav a:hover{background: url(../images/nav_hover.gif) repeat-x; color: #000040}
+
+
+
+/*********网站底部样式*********/
+#footer{ width:980px;}
+
+
+
+
+#footer .service{ float:left; width:974px; border:3px solid #ddd; padding:10px 0; }
+
+#footer .service ul{float:left; margin:0 38px;padding:5px 0 0 0; width:160px; text-align:center; background:url(../images/ficon1.gif) left top no-repeat; display:inline; }
+
+#footer .service ul li{ height:22px; line-height:22px; }
+
+#footer .service ul li strong{ display:block; height:30px; line-height:30px;  color:#000; margin-top:10px;}
+
+#footer .service ul li a{ font-size:12px; color:#333;}
+
+#footer .service ul li a:hover{ color:#c09; text-decoration:underline}
+
+
+
+
+#footer .about{ margin-top:10px; text-align:center; border-top:1px solid #ccc;padding:10px 0;}
+#footer .about a{ font-size:12px; color:#333; margin:0 20px; display:inline;}
+#footer .about a:hover{ color:#c00; text-decoration:underline;}
+
+#footer .address p{ font-size:14px; font-weight:bold; color: #900; line-height:25px;}
+
+
+/*********当前位置*********/
+.place{ float:left; margin-top:10px; text-align:left; font-size:12px; width:718px; height:29px; line-height:29px; border:1px solid #ccc; background:url(../images/place_bg.gif) repeat-x;}
+.place strong{ margin-left:10px; color:#000;display:inline}
+.place a{ font-size:12px; color:#333;}
+.place a:hover{ color:#C00;}

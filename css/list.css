@@ -1,0 +1,107 @@
+
+
+
+
+#Left_list{ float:left; width:700px;}
+
+
+#list{ float:left; width:720px; text-align:left; background:#fff;}
+
+#list ul{ float:left; width:720px; background:#f9f9f9;}
+
+#list ul li{ float:left;width:343px; height:113px;border:1px solid #ccc;  border-top:none;padding:6px 7px 6px 8px;overflow:hidden; display:inline;}
+
+#list ul li  a img{ float:left; width:128px; height:108px; padding:2px; border:1px solid #bbc; margin-right:5px;}
+
+#list ul li strong{  display:block; height:25px; line-height:25px; }
+
+#list ul li strong a{font-weight:bold; color:#f40;}
+
+#list ul li p{ float:left; width:180px; font-size:12px; height:68px; line-height:18px;overflow:hidden; }
+
+#list ul li span{ font-size:13px; margin:0 10px; text-decoration:line-through; color:#666;}
+
+#list ul li .yhj{ font-weight:bold; color:#C00; text-decoration:none;}
+
+#list ul li a:hover{color:#c00;text-decoration:underline;}
+
+/**********************列表页分页样式*************************/
+
+.pages{ float:left;width:718px;border:1px solid #ccc;border-top:none;  background:url(../images/place_bg.gif) repeat-x;}
+
+.pages ul{ text-align:center; height:29px; line-height:29px;  }
+
+.pages ul li{ display:inline; height:18px;  font-size:12px; padding:0 10px;text-align:center;}
+
+.pages ul li a{ font-size:12px; color:#000;}
+
+.pages ul .thisclass{ font-weight:bold; color:#900;}
+
+.pages ul li select{ border:1px solid #aaa; _margin-top:4px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**#####################################右边区域样式#######################################**/
+#right_list{ float:right; text-align:left; width:250px; margin:0 0 0 0px; display:inline;   }
+
+#right_list .right_box{ float:left; width:248px; border:1px solid #ccc; margin:10px  0 0 0;}
+
+#right_list .right_box strong{ display:block; width:248px; height:29px; line-height:29px; text-indent:10px; border-bottom:1px solid #ccc;  background:url(../images/place_bg.gif) repeat-x;}
+
+#right_list .right_box ul{ float:left; margin-bottom:5px;}
+
+#right_list .right_box li{ float:left; width:110px; text-align:center; margin:5px 0 3px 9px; display:inline;}
+
+#right_list .right_box li a{ font-size:12px; color:#064A68; }
+
+#right_list .right_box img{ width:106px; height:90px; padding:2px; border:1px solid #BBE1F0}
+
+#right_list .right_box a:hover img{ border:1px solid #f30;}
+
+
+
+
+/*******广告样式********/
+#ad {float:left; width:248px;  margin:10px 0 0 0; }
+
+#ad  img{ width:248px; height:250px;border:1px solid #ccc;}
+
+
+
+
+/*******点击排行********/
+.dj{float:left; width:248px; border:1px solid #ccc; margin:10px  0 0 0; }
+
+.dj  .dj_title{ display:block; width:248px; height:29px; line-height:29px; font-weight:bold; text-indent:10px; border-bottom:1px solid #ccc;  background:url(../images/place_bg.gif) repeat-x;}
+
+.dj  ul{ float:left;padding-bottom:5px;}
+
+.dj  ul li{float:left; width:240px;height:72px; display:inline; margin:5px 4px; }
+
+.dj  ul li  strong a{ display:block; float:left; height:25px; line-height:25px; width:162px; text-indent:5px;color:#0C6181;}
+.dj  ul li  strong a:hover{color:#c00;text-decoration:underline;}
+.dj  ul li img{ float:left;width:70px; height:68px; padding:2px; border:1px solid #ccc; display:inline; }
+
+.dj ul li p{ float:left; width:152px; margin-left:10px; font-size:12px; height:20px; line-height:20px; display:inline; }
+
+.dj ul li p span{ margin:0 10px 0 0;text-decoration:line-through ;}
+
+.dj ul li p .yhj{ text-decoration:none; color:#c00;}
+
+
+
+
+

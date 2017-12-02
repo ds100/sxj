@@ -1,0 +1,154 @@
+/********************首页左边部分********************/
+#left{ float:left; width:780px; }
+
+
+/******商品分类******/
+	#spfl {float:left;  width:178px; height:320px;  border:1px solid #F90; text-align:left; overflow:hidden; }
+
+#spfl .spfl_title {width:100%; line-height:39px; height:39px; background:url(../images/spfl.gif) center no-repeat; }
+
+#spfl a { width:100%; display:block; height:42px; line-height:31px; color:#333; text-indent:30px; background:url(../images/spfl_bottom.gif) bottom no-repeat; }
+
+#spfl a:hover { color:#c00; font-weight:bold; }
+
+/******首页幻灯******/
+#flash { float:left; margin-left:10px; width:588px; height:213px; border:1px solid #ccc; }
+
+		#slider-wrapper { float:left; width:558px; height:213px; overflow:hidden }
+		
+		#slider { width:588px; height:213px; background:url(../images/loading.gif) no-repeat; }
+		
+		#slider img { width:588px; height:213px; display:none; }
+		
+		#slider a { border:0; display:block; }
+		
+		.nivo-controlNav a { display:block; text-indent:-9999px; border:0; margin-right:3px; float:left; }
+		
+		.nivo-controlNav a.active { }
+		
+		.nivo-directionNav a { display:block; width:30px; height:30px; background:url(../images/arrows.png) no-repeat; text-indent:-9999px; border:0; }
+		
+		a.nivo-nextNav { background-position:-30px 0; right:15px; }
+		
+		a.nivo-prevNav { left:15px; }
+		
+		.nivo-caption { text-shadow:none; font-family: Helvetica, Arial, sans-serif; }
+		
+		.nivo-caption a { color:#efe9d1; text-decoration:underline; }
+		
+		.nivoSlider { position:relative; }
+		
+		.nivoSlider img { position:absolute; top:0px; left:0px; }
+		
+		/* If an image is wrapped in a link */
+		.nivoSlider a.nivo-imageLink { position:absolute; top:0px; left:0px; width:100%; height:100%; border:0; padding:0; margin:0; z-index:60; display:none; }
+		
+		/* The slices in the Slider */
+		.nivo-slice { display:block; position:absolute; z-index:50; height:100%; }
+		
+		/* Caption styles */
+		.nivo-caption { position:absolute; left:0px; bottom:0px; background:#000; color:#fff; opacity:0.8; /* Overridden by captionOpacity setting */ width:100%;                       z-index:89; }
+		
+		.nivo-caption p { padding:5px; margin:0; }
+		
+		.nivo-caption a { display:inline !important; }
+		
+		.nivo-html-caption { display:none; }
+		
+		/* Direction nav styles (e.g. Next & Prev) */
+		.nivo-directionNav a { position:absolute; top:45%; z-index:99; cursor:pointer; }
+		
+		.nivo-prevNav { left:0px; }
+		
+		.nivo-nextNav { right:0px; }
+		
+		/* Control nav styles (e.g. 1,2,3...) */
+		.nivo-controlNav a { position:relative; z-index:99; cursor:pointer; }
+		
+		.nivo-controlNav a.active { font-weight:bold; }
+
+
+
+/******产品推荐******/
+#tuijian{ float:left; text-align:left; margin-top:5px; margin-left:10px; width:588px; height:96px; border:1px solid #ccc; border-top:3px solid #f00;}
+
+#tuijian ul{ float:left;}
+
+#tuijian ul li{ float:left; width:184px;  padding:5px 3px; margin-left:5px; border-right:1px solid #ccc; display:inline;}
+
+#tuijian ul li strong a{  display:block; text-align:center; width:80px;height:16px; line-height:18px;  overflow:hidden; font-size:12px; font-weight:normal; background:#f20; color:#fff;}
+#tuijian ul li p{ float:left; font-size:12px; margin-top:5px; width:104px; color:#333; height:45px; line-height:16px;}
+#tuijian ul li span{float:left; font-size:14px; width:104px; height:20px; line-height:20px; font-weight:bold; color:#f00;}
+#tuijian ul li img{ float:right;width:80px; height:80px;}
+
+#tuijian ul li strong a:hover{ color: #FC3}
+
+
+/********商品通用展示样式**********/
+.product_box{ float:left; width:780px; text-align:left;}
+
+.product_title{ height:40px; line-height:40px; text-align:right; background:#eee url(../images/zx.gif) left no-repeat;}
+.product_title span{ margin-right:20px; font-size:12px;}
+.product_title span a{ font-size:12px; color:#000; margin:0 5px;}
+.product_title span a:hover{ color:#c00; text-decoration:underline;}
+
+.product_box ul li{ float:left; width:185px; margin:10px 10px 0 0; text-align:center; display:inline;}
+.product_box ul li img{ width:158px; height:135px; margin-bottom:3px; padding:2px; border:1px solid #ccc; display:inline;}
+.product_box ul li a{ display:block; width:100%; line-height:25px; font-size:12px; color:#000;}
+.product_box ul li p{ font-weight:bold; font-size:12px; color:#f00;}
+.product_box ul li p .scj{ text-decoration: line-through; color: #333; font-weight:normal;}
+
+.product_box ul li a:hover{ color:#F00; text-decoration:underline;}
+.product_box ul li a:hover img{ border:1px solid #F30}
+
+/**********************************首页左边部分结束************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*##############################首页右边部分#######################################*/
+#right{ float:right; margin-top:10px; width:200px; height:1000px; text-align:right; }
+
+
+/*********畅销排行********/
+.changxiao{ float:right; height:95px; margin:5px 0  0 0; width:188px; border:1px solid #ccc; text-align:left; overflow:hidden; }
+.changxiao strong{ float:left; height:22px; line-height:22px; text-indent:5px; display:block; width:100px; font-size:12px; color: #600; overflow:hidden;}
+.changxiao p{ float:left; margin-left:2px; font-size:12px; color:#333; height:50px; width:100px; line-height:18px; overflow:hidden;}
+.changxiao span{ display:block;margin-left:2px; width:100px;font-size:13px; font-weight:bold; color:#f00; overflow:hidden;}
+.changxiao img{ float:right; margin:2px; width:80px; height:80px; display:inline;overflow:hidden;}
+.changxiao strong a{ font-size:14px; color:#000}
+.changxiao strong a:hover{ color: #C03; text-decoration:underline}
+
+
+/**********排行榜样式**********/
+.paihang{ float:right; width:188px; margin-top:10px; text-align:center; border:1px solid #ccc; border-top:none;}
+.paihang .paihang_title{ font-size:16px; font-weight:bold; color:#000; text-indent:10px; text-align:left; height:30px; line-height:30px; border-top:2px solid #f00;}
+
+.paihang .No1{ width:100%; padding:5px 0; background:#eee url(../images/no.1.gif) left top no-repeat;}
+.paihang .No1 a{ display:block; font-size:12px; color:#000;}
+.paihang .No1 img{ width:95px; height:95px; margin-bottom:3px;}
+
+
+.paihang ul{ text-align:left}
+.paihang ul li{ height:26px; line-height:26px; margin-left:5px; background:url(../images/numbg.gif) left center no-repeat;  }
+.paihang ul li span{ margin:0 10px 0 4px; color:#666; font-size:12px; text-align:center;}
+.paihang ul li a{  font-size:12px; color:#333;}
+.paihang  a:hover{ color:#C00; text-decoration:underline;}
+
+/*##############################首页右边部分结束#######################################*/
+
+
+
+
+
+/*********周边产品推荐************/
+#zb{ width:980px;}
+#zb  ul li img{ height:150px; width:180px; display:inline; overflow:hidden;}

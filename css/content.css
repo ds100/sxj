@@ -1,0 +1,95 @@
+
+
+
+
+/************************************************
+***********		左边内容区样式   ****************
+************************************************/
+
+#Left_content{ float:left; width:720px; text-align:left;}
+
+
+
+
+/************商品图片样式*************/
+#Left_content #product_info{ float:left; margin:10px 0;text-align:center; }
+#Left_content #product_info .product_img{ float:left; width:220px; }
+#Left_content #product_info .product_img img{ width:220px; height:180px;}
+
+
+.product_introduction{ float:right; width:490px; margin-left:10px;  }
+/************商品大标题样式*************/
+#Left_content #product_info h1{ display:block; font-size:16px;  height:30px; line-height:30px; }
+
+/************商品发布时间和收藏样式*************/
+#Left_content #product_info p{ border-bottom:1px solid #ddd; height:22px; line-height:22px;}
+#Left_content #product_info p span{ font-size:12px; color:#333;}
+#Left_content #product_info p a{font-size:12px; color:green; margin-left:10px;}
+
+/************商品简介样式*************/
+#Left_content #product_info ul{ float:left; width:70%; text-align:left; margin-top:10px; }
+#Left_content #product_info ul li{ height:30px; line-height:30px; color:#333; font-size:13px;}
+#Left_content #product_info ul li span{ color:#000; font-size:12px; margin-left:5px;}
+#Left_content #product_info ul li .bdjg{ font-weight:bold; color:#f00}
+
+
+/************购买按钮样式*************/
+#Left_content #product_info #buy{float:left; width:30%; margin-top:30px; }
+#Left_content #product_info #buy a{display:block; margin:10px 0; width:134px; height:35px; line-height:35px; color:#fff; background:url(../images/buy_submint.gif) no-repeat}
+#Left_content #product_info #buy a:hover{background:url(../images/buy_hover.gif) no-repeat;}
+
+#Left_content #product_info #buy button{display:block;font-size:14px; margin:10px 0; width:134px; height:35px; line-height:35px; color:#fff; background:url(../images/buy_submint.gif) no-repeat;border:none;}
+
+#Left_content #product_info #buy button:hover{background:url(../images/buy_hover.gif) no-repeat;}
+
+/************详细信息样式*************/
+#content{}
+
+#content .content_title{float:left; width:100%; border-bottom:2px solid #f00;  font-weight:bold;}
+#content .content_title strong{float:left; display:block; text-align:center; width:90px; height:26px; line-height:28px; overflow:hidden; color:#fff; background:url(../images/content_title_bg.gif) no-repeat; }
+#content .content_title span{ float:right; font-size:14px;color:#c00;letter-spacing:1px; }
+
+#content .content_text{font-size:14px; line-height:200%;  margin-top:10px; padding:0 10px;}
+#content .content_text p{color:#000;}
+#content .content_text img{ margin:5px 0;}
+
+
+
+
+
+
+
+
+
+/************************************************
+***********		右边区域样式   ****************
+************************************************/
+
+#Right_content{ float:right; width:250px;margin-top:10px; text-align:left;  }
+
+
+/*************相关产品***************/
+.related{ float:left; width:248px; border:1px solid #d00}
+
+.related .related_title{ height:30px; line-height:30px; background:url(../images/title_red.gif) repeat-x; color:#fff;  border-bottom:1px solid #d00; text-indent:10px;}
+
+.related ul{ float:left; }
+
+.related  ul li{ float:left; width:114px; text-align:center; margin: 4px; display:inline;}
+
+.related  ul li img{ width:110px; height:90px; padding:2px; border:1px solid #FFDDDE;}
+
+.related  ul li a{ font-size:12px; color:#000;}
+.related  ul li a:hover{ color:#900; text-decoration:underline;}
+
+.related  ul li p{ font-size:12px; color:#333; height:18px; line-height:18px;}
+.related  ul li p span{ color:#900; font-weight:bold;}
+
+
+
+
+
+/*************最新产品***************/
+#new_product{ border:none; border-bottom:2px solid #d00; border-bottom:1px solid #d00; padding:5px 0; }
+#new_product ul li{ width:100%; overflow:hidden;text-align:left;}
+#new_title{ background:none; color:#000; border-bottom:2px solid #d00;}
